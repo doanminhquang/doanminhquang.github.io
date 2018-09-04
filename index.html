@@ -3,11 +3,18 @@
 <head>
 <title>Đoàn Minh Quang</title>
 <style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body, html {
+  height: 100%;
+  margin: 0;
+}
 body {
   padding: 20px;
   box-sizing: border-box;
   font-family: Roboto, Helvetica, Arial, serif;
-  background: url(http://farm5.staticflickr.com/4180/34813900975_be65f5a553_o.jpg);
+  background: url(http://www.hdwallsource.com/img/2014/10/blurred-36379-37207-hd-wallpapers.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -27,7 +34,7 @@ aside {
   display: block;
   height: 250px;
   width: 250px;
-  background: url(http://farm5.staticflickr.com/4180/34813900975_be65f5a553_o.jpg);
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/3a/1f/02/3a1f02c10700daa80655a302c5a27acf.jpg);
   background-size: cover;
   overflow: hidden;
   box-shadow: 0 0 100px 10px #fff;
@@ -122,8 +129,6 @@ aside:hover .profile-social-links {
   border-radius: 50%;
   padding: 5px;
 }
-/*PROFILE IMAGE ANIMATE */
-
 @keyframes profile_image {
   0% {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
@@ -204,8 +209,6 @@ aside:hover .profile-social-links {
     transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
 }
-/*NAME ANIMATE */
-
 aside:hover header h1 {
   animation: name_and_job 1500ms linear both;
   animation-delay: 0.4s;
@@ -344,63 +347,39 @@ aside:hover ul li:nth-child(3) {
   100% {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
-}
+}</style>
 </head>
 <body> 
 <aside class="profile-card">
-
   <header>
-
-    <!-- Hình của bạn -->
-    <a href="http://www.laivanduc.com">
+    <a href="https://doanminhquang.github.io/">
       <img src="http://farm5.staticflickr.com/4175/34651231232_b1a413839f_o.jpg">
     </a>
-
-    <!-- Tên của bạn -->
-    <h1>Lại Văn Đức</h1>
-
-    <!-- Công việc hay nghề của bạn -->
+    <h1>Đoàn Minh Quang</h1>
     <h2>- Web Developer -</h2>
-
   </header>
-
-  <!-- Thêm thông tin của bạn -->
   <div class="profile-bio">
-
     <p>Chào mừng các bạn</p>
     <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và WordPress.
-      <br />Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ khác.</p>
-
+    <br />Tôi cũng làm việc tốt với Photoshop, After Effects và vài thứ khác.</p>
   </div>
-
-  <!-- Liên kết mạng xã hội -->
   <ul class="profile-social-links">
-
-    <!-- twitter - el clásico  -->
     <li>
       <a href="http://twitter.com/">
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg">
       </a>
     </li>
-
-    <!-- envato – use this one to link to your marketplace profile -->
     <li>
       <a href="http://facebook.com">
         <img src="http://farm5.staticflickr.com/4221/34651248062_73641b1a80_o.png">
       </a>
     </li>
-
-    <!-- Tài khoản Google +-->
     <li>
-      <a href="https://plus.google.com/u/0/118260931574775251745/posts">
+      <a href="https://plus.google.com">
         <img src="http://farm5.staticflickr.com/4186/34004419773_ed97040ef5_o.png">
       </a>
     </li>
-
-    <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
-
   </ul>
-
 </aside>
   </body>
 </html>
