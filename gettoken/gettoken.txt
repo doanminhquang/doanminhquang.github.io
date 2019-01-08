@@ -1,6 +1,5 @@
-
-var email = "youremail";
-var password = "yourpassword";
+var email = "mail";
+var password = "password";
  
 var BASE_URL = "https://api.facebook.com/restserver.php";
 var API_SECRET = "62f8ce9f74b12f84c123cc23437a4a32";
