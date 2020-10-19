@@ -108,7 +108,7 @@ function detectPrivateMode(callback) {
 }
 
 detectPrivateMode(result => {
-  document.body.innerHTML = result ? '<a href="/home.html"><center>Bạn đang mở trang ở chế độ ẩn danh.</center></a><p> <strong> Lưu ý: </strong> Bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p>' : '<a href="/home.html"><center>Bạn đang mở trang ở chế độ bình thường.</center></a> <p> <strong> Lưu ý: </strong> Bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p>'  
+  document.body.innerHTML = result ? '<a href="/home.html"><center>Bạn đang mở trang ở chế độ ẩn danh.</center><p> <strong> Lưu ý: </strong> Bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p></a>' : '<a href="/home.html"><center>Bạn đang mở trang ở chế độ bình thường.</center><p> <strong> Lưu ý: </strong> Bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p></a>'  
 });
  </script>
  <script>
