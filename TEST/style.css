@@ -48,10 +48,9 @@ body {
 	font-family: inherit;
 }
 
-#loginPassword {
+#pass {
 	display: block;
 	margin: 5px 0 5px 0;
-	padding: 1em 1em 1;
 	background-color: #f3fafd;
 	border: solid 2px #217093;
 	border-radius: 4px;
