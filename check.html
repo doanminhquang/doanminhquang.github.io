@@ -21,7 +21,7 @@ a{ color:#000000;
 }
 </style>
 <body onselectstart="return false" oncontextmenu="return false"> 
- <a href°"/home.html"><center>Đi tới trang chủ</center></a>
+ <a href="/home.html"><center>Đi tới trang chủ</center></a>
  <script>
 function isIE10OrLater(user_agent) {
     var ua = user_agent.toLowerCase();
@@ -79,10 +79,7 @@ function detectPrivateMode(callback) {
 	            is_private = true;
 	        }
 	    } else if (window.localStorage && /Safari/.test(window.navigator.userAgent)) {
-	        
-	        // One-off check for weird sports 2.0 polyfill
-		    // This also impacts iOS Firefox and Chrome (newer versions), apparently
-	        // @see bglobe-js/containers/App.js:116
+
 	        if (window.safariIncognito) {
 	        	is_private = true;
 	        } else {
