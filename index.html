@@ -15,17 +15,7 @@
     </head>
     <body>
         <div id="content">
-            <iframe id="iframe" width="100%" height="100%" frameborder="0" src="" />
+            <iframe id="iframe" width="100%" height="100%" frameborder="0" src="check.html" />
         </div>       
     </body>   
-    <script>
-            var checklog = localStorage.getItem('checklog');
-            var iframe = document.querySelector('#iframe');            
-            if(checklog === "done"){
-                iframe.setAttribute('src', 'home.html');
-            }
-            else {                
-                iframe.setAttribute('src', 'check.html');
-            }
-    </script>  
 </html>
