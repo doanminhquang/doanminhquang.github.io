@@ -23,6 +23,9 @@ a{
 center{
    margin-top: 20rem;	
 }
+#noti{
+  margin-top: 0rem;  	
+}	
 </style>
 <body onselectstart="return false" oncontextmenu="return false"> 
  <a href="/home.html"><center>Đi tới trang chủ</center></a>
@@ -110,7 +113,7 @@ function detectPrivateMode(callback) {
 }
 
 detectPrivateMode(result => {
-  document.body.innerHTML = result ? '<center>Bạn đang mở trang ở chế độ ẩn danh.</center><center><p> <strong> Lưu ý: </strong> Bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p></center>' : '<center>Bạn đang mở trang ở chế độ bình thường.</center><center><p> <strong> Lưu ý: </strong>Có thể bị sai bởi VPN hoặc một số yếu tố khác và bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p></center>'  
+  document.body.innerHTML = result ? '<center>Bạn đang mở trang ở chế độ ẩn danh.</center><center id="noti"><p> <strong> Lưu ý: </strong> Bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p></center>' : '<center>Bạn đang mở trang ở chế độ bình thường.</center><center id="noti"><p> <strong> Lưu ý: </strong>Có thể bị sai bởi VPN hoặc một số yếu tố khác và bạn sẽ được chuyển hướng sau 10 giây. Bạn không thể quay lại trang này bằng cách nhấp vào nút quay lại của trình duyệt. </p></center>'  
 });
  </script>
  <script>
