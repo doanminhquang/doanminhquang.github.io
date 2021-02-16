@@ -112,6 +112,7 @@ detectPrivateMode(result => {
  <script>
     function pageRedirect() {
         window.location.replace("/home.html");
+	localStorage.setItem('checklog', 'done');
     }      
     setTimeout("pageRedirect()", 10000);
 </script>
