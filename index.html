@@ -15,18 +15,16 @@
     </head>
     <body>
         <div id="content">
-            <iframe id="ifrm" width="100%" height="100%" frameborder="0" src="" />
+            <iframe id="iframe" width="100%" height="100%" frameborder="0" src="" />
         </div>
         <script>
             var checklog = localStorage.getItem('checklog');
-            var url1 = 'check.html';
-            var url2 = 'home.html';
-            var el = document.getElementById('ifrm');
+            var iframe = document.querySelector('#iframe');            
             if(checklog === "done"){
-                el.src = url2;
+                iframe.setAttribute('src', 'home.html');
             }
             else {                
-                el.src = url1;
+                iframe.setAttribute('src', 'check.html');
             }
         </script>
     </body>    
