@@ -1,5 +1,5 @@
 *:focus{
-	outline: none;
+	outline: none!important;
 }
 
 input:focus,
