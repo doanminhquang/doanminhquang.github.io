@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">    
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="contact.css" media="screen">
+  </head>
+  <body class="u-body">
+    <section class="u-clearfix u-palette-1-base u-section-1" id="carousel_8346">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-xs u-sheet-1">
+        <div class="u-expanded-height-lg u-expanded-height-md u-expanded-width-sm u-expanded-width-xs u-palette-4-light-1 u-shape u-shape-rectangle u-shape-1"></div>
+        <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-image u-layout-cell u-left-cell u-size-30 u-image-1" data-image-width="1200" data-image-height="959">
+                <div class="u-container-layout u-container-layout-1"></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-valign-middle u-container-layout-2">
+                  <div class="u-expanded-width u-form u-form-1">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeOq3gHzQbSB5ybhE2cGd89ELOFFe1SsqYpAj6s35XL3n7ecw/formResponse?embedded=true" method="get" target="frametanghinh" class="u-block-7bb6-9 u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" source="custom" onsubmit="return send()">
+                      <div class="u-form-group u-form-name">
+                        <label for="name-76c6" class="u-form-control-hidden u-label u-label-1">Name</label>
+                        <input type="text" placeholder="Tên" id="name-76c6" name="entry.1486621963" class="u-border-3 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="">
+                      </div>
+                      <div class="u-form-email u-form-group">
+                        <label for="email-76c6" class="u-form-control-hidden u-label u-label-2">Email</label>
+                        <input type="email" placeholder="Email" id="email-76c6" name="entry.1251176942" class="u-border-3 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="">
+                      </div>
+                      <div class="u-form-group u-form-message">
+                        <label for="message-76c6" class="u-form-control-hidden u-label u-label-3">Message</label>
+                        <textarea placeholder="Tin Nhắn" rows="4" cols="50" id="message-76c6" name="entry.616096493" class="u-border-3 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required=""></textarea>
+                      </div>
+                      <div class="u-align-center u-form-group u-form-submit">
+                        <button type="submit" class="u-btn u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-4-base u-btn-1">Submit</button>
+                      </div>
+                      <div class="u-form-send-message u-form-send-success"> Cảm ơn bạn đã gửi tin nhắn!. </br> Refresh trang để gửi tin nhắn khác. </div>
+                      <div class="u-form-send-error u-form-send-message"> Hiện đang lỗi xin vui lòng quay lại sau. </div>
+                      <input type="hidden" value="" name="recaptchaResponse">
+                    </form>
+					<iframe name="frametanghinh" style="display: none;"></iframe>
+                  </div>
+                  <p class="u-align-center u-text u-text-1">Quay lại <a href="../" class="u-active-none u-border-white u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2">trang chủ</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+    <script>
+	function send(){
+		document.getElementsByClassName("u-form-send-success")[0].style.display = "block";  
+		document.getElementById("btn_send").disabled = true;
+		return true;
+	}
+    </script>
+</html>
