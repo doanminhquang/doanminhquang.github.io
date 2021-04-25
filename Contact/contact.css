@@ -1,8 +1,4 @@
-html{
-	background: #478ac9;
-}
-
-body{
+html,body{
 	overflow: -moz-scrollbars-vertical;
 	overflow-x: hidden;
 	overflow-y: auto;	
