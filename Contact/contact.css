@@ -2,6 +2,12 @@ body,html{
 	background: #478ac9;
 }
 
+body{
+	overflow: -moz-scrollbars-vertical;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
 *:focus{
 	outline: none!important;
 }
