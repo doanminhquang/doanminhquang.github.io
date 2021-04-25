@@ -1,11 +1,12 @@
-body,html{
+html{
 	background: #478ac9;
 }
 
 body{
 	overflow: -moz-scrollbars-vertical;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: auto;	
+	background: #478ac9;
 }
 
 *:focus{
