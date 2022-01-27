@@ -1,1 +1,1 @@
-[![Dino](dino.gif)](doanminhquang.github.io)
+[![Dino](dino.gif)](https://doanminhquang.github.io)
