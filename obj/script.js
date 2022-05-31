@@ -3,9 +3,8 @@ document.querySelector("#get").onclick = function () {
   let result = sentences
     .map((x) => {
       let temp = x.split(":");
-      return "{'" + temp[0] + "':" + temp[1] + "},\n";
+      return '{"' + temp[0] + '":' + temp[1] + '}\n';
     })
-    .toString()
-    .replaceAll(",", "");
+    .toString();
   document.querySelector("#result").innerHTML = result;
 };
